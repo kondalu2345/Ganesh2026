@@ -84,3 +84,32 @@ async function loadNotifications(){
     });
 
 }
+function startCountdown(){
+
+    const festivalDate =
+    new Date("2026-09-07");
+
+    setInterval(()=>{
+
+        const now =
+        new Date();
+
+        const diff =
+        festivalDate - now;
+
+        const days =
+        Math.floor(
+            diff/(1000*60*60*24)
+        );
+
+        document.getElementById(
+            "countdown"
+        ).innerHTML =
+        "⏳ " + days +
+        " Days Remaining";
+
+    },1000);
+
+}
+
+startCountdown();
