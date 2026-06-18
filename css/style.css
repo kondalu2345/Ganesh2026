@@ -58,3 +58,59 @@ footer{
 .btn-orange:hover{
     background:#f57c00;
 }
+
+.hero{
+
+    background:url('../images/banner.jpg');
+
+    background-size:cover;
+
+    background-position:center;
+
+    height:450px;
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+}
+
+.overlay{
+
+    background:rgba(0,0,0,0.45);
+
+    height:100%;
+
+    color:white;
+
+    text-align:center;
+
+    padding-top:120px;
+
+}
+
+.overlay h1{
+
+    color:white;
+
+    font-size:50px;
+
+    font-weight:bold;
+
+}
+
+.overlay p{
+
+    font-size:22px;
+
+}
+
+#countdown{
+
+    font-size:28px;
+
+    font-weight:bold;
+
+    margin-top:20px;
+
+}
